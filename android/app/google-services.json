@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "408477615953",
+    "firebase_url": "https://firstapp-9581f-default-rtdb.firebaseio.com",
+    "project_id": "firstapp-9581f",
+    "storage_bucket": "firstapp-9581f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408477615953:android:f150d7c22b37c1162d3570",
+        "android_client_info": {
+          "package_name": "com.infosphere.learning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSZYMUNzJDg8G74MGuR5U_9i1UiBpJ7T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
