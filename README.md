@@ -37,10 +37,12 @@ To get the app running, you'll need:
 
 ### How to set it up
 
+
 You’ll download the app files, connect it to your Firebase account, and install it on a tablet. You’ll need to tell Firebase what your app’s name is, and put a small file (called `google-services.json`) in the right place. Once that's done, you can run the app and everything should work.
 
 The app will connect to the Firebase database and show live doctor status. If a doctor is online, patients can book appointments. If they’re offline or busy, the app will show that clearly.
 
+How to set up files code in Android studio by cloning the app from GitHub - 
 ---
 
 ### How to use it
