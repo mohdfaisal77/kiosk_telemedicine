@@ -267,8 +267,8 @@ class FirebaseController extends GetxController {
           title: Row(
             children: [
               Icon(Icons.check_circle, color: Colors.green),
-              SizedBox(width: 10),
-              Text("Booking Successful"),
+              SizedBox(width: 0),
+              Text("Booking Successful",style: TextStyle(fontSize: 14),),
             ],
           ),
           content: Column(

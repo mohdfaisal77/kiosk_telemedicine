@@ -41,7 +41,7 @@ class AuthController extends GetxController {
 
     Get.snackbar(
       'Logged Out',
-      'You have been logged out due to inactivity',
+      'You have been logged out',
       snackPosition: SnackPosition.TOP,
       backgroundColor: Get.theme.colorScheme.secondary.withOpacity(0.1),
       colorText: Get.theme.colorScheme.secondary,
