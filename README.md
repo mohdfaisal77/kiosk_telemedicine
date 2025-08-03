@@ -40,10 +40,64 @@ To get the app running, you'll need:
 
 You’ll download the app files, connect it to your Firebase account, and install it on a tablet. You’ll need to tell Firebase what your app’s name is, and put a small file (called `google-services.json`) in the right place. Once that's done, you can run the app and everything should work.
 
-The app will connect to the Firebase database and show live doctor status. If a doctor is online, patients can book appointments. If they’re offline or busy, the app will show that clearly.
+The app will connect to the Firebase database and show live doctor status. If a doctor is online, patients can book appointments. If they’re offline or busy, the app will show that clearly. 
 
-How to set up files code in Android studio by cloning the app from GitHub - 
----
+
+ ###Steps to Clone Your Project in Android Studio Using Terminal
+
+1. **Open Android Studio**
+   Start Android Studio on your computer.
+
+2. **Open the Terminal**
+   Inside Android Studio, go to the bottom tab and click **"Terminal"**, or use the shortcut:
+   **Windows/Linux**: `Alt + F12`
+   **Mac**: `Option + F12`
+
+3. **Go to the Folder Where You Want the Project**
+   Type this command to go to your Android projects folder:
+
+   ```bash
+   cd ~/AndroidStudioProjects
+   ```
+
+   (If you're using a different folder, change the path accordingly.)
+
+4. **Clone Your GitHub Project**
+   Run this command to download the project:
+
+
+   git clone -b master https://github.com/mohdfaisal77/kiosk_telemedicine.git
+
+
+   This will create a folder named `kiosk_telemedicine` with all your project files.
+
+5. **Go Into the Project Folder**
+   Enter the folder using:
+
+  
+   cd kiosk_telemedicine
+
+
+6. **Open the Project in Android Studio**
+
+   * If your system supports it, type:
+
+ 
+     studio .
+
+
+     (This opens the current folder in Android Studio. If this doesn’t work, don’t worry.)
+
+   * Or you can do it manually:
+
+     * In Android Studio, go to **File > Open...**
+     * Find and select the `kiosk_telemedicine` folder
+     * Click **OK** or **Open**
+
+7. **Wait for the Project to Sync**
+   Android Studio will load your project and may ask to sync Gradle files. Click **“Sync Now”** if it appears.
+
+
 
 ### How to use it
 
